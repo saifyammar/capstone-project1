@@ -39,6 +39,7 @@ app.get('/edit/:id', (req, res) => {
     }
 });
 
+
 // Route to update a post
 app.post('/edit/:id', (req, res) => {
     const postId = parseInt(req.params.id);
